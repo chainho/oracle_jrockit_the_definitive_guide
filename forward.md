@@ -1,0 +1,21 @@
+# 序
+
+至今我仍然清楚的记得第一次遇到JRockit团队时的情形。那是在1999年，我代表WebLogic参加JavaOne大会，这些身着黑色T恤衫瑞典大学生正在向大家介绍他们正在开发的、号称性能最强劲的服务器端虚拟机。那时，HotSpot 1.2版本的发布再次跳票，而我们也正被Classic VM中无穷无尽的伸缩性问题搞得焦头烂额，所以就对这些小伙子的演讲产生了兴趣，驻足倾听。不过当我离开会场时，我却认为这些聪明小伙子还是有些图样图森破，还没有认清敌人的强大。
+
+时光飞逝，BEA收购了JRockit，而我成为了WebLogic和JRockit两个团队的技术沟通方面的负责人。彼时，JRockit已非吴下阿蒙，具有了很好伸缩性和强劲的性能。随着工作的展开，我也很荣幸的结识了本书的两位作者：Marcus Lagergren和Marcus Hirt。
+
+当时正在负责编译器开发的Lagergren是一位非常高产的程序员。曾经有一段时间，我们共同研究如何优化WebLogic，以及探究为何某个方法没有被内敛或去虚拟化（devirtualization）。在这个过程中，我们（包括WebLogic团队和JRockit团队）合力创造了几项SPECjAppServer的世界纪录，使得JRockit威名更盛。
+
+本书的另一位作者Hirt则始终专注于监控和诊断方面的工作。因此，他也顺理成章的成为了相关工具开发的领导者，而这些工具就是JRockit Mission Control的前身。我们很早就注意到，为了能过扩大JRockit开发团队的规模，开发更好用的开发工具简化开发和调试工作是很有必要的。
+
+转眼又是几年过去了，我去到了Oracle，后来BEA被Oracle收购。我怀着激动的心情再次迎接JRockit团队的加入，只不过这次的新东家换成了Oracle。JRockit的核心开发团队仍然是那些人，他们现在已经是虚拟机领域的专家了。
+
+Lagergren仍然负责底层实现（即JRockit Virtual Edition）的开发，并且开发效率依然很高。在Hirt的带领下，Mission Control已经从内部开发工具成长为最受用户喜爱的JRockit开发套件之一。两位作者对JRockit的方方面面都非常了解，很难想象会有比他们两位更适合撰写此书的人。
+
+因此，正如前面所说，能够结识JRockit开发团队并与其合作，我感到非常骄傲。通过阅读本书，相信你也会有这样的体会，并希望你也能找到自己感兴趣、乐意深入挖掘的主题。
+
+
+Adam Messinger
+Vice President of Development, Oracle Fusion Middleware group
+February 14, 2010
+San Francisco, CA
