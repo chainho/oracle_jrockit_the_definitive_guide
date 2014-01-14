@@ -1,7 +1,7 @@
 README
 ==================================================
 
-"[Oracle JRockit - The Definitive Guide][1]"（中文名应该叫《Oracle JRockit权威指南》吧）
+"[Oracle JRockit - The Definitive Guide][1]" translation（中文名应该叫《Oracle JRockit权威指南》吧）
 
 
 
