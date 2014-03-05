@@ -35,10 +35,16 @@ JRockit的相关工作越来越多。2001年的时候，处理咨询业务的工
 
 * **[第一章：起步][1]**    该章对JRockit和JRockit Mission Control做了简要介绍，其内容包括如何获得相关软件及软件对各平台的支持情况。本章中的内容还包括在切换到JVM厂商的产品时所需要注意的问题，JRockit和JRockit Mission Control中版本号的命名规范，以及如何获取更多相关内容。
 * **[第二章：自适应代码生成][2]**    在该章中将会对自适应运行时环境中的代码生成做简要介绍。主要内容包括，为什么在JVM中实现自适应代码生成更有难度，而其实现所能发挥的功效却更加强大；JVM针对性能优化所采取的措施；用一个例子对JRockit的代码生成和优化流水线进行介绍；对自适应代码生成和传统代码生成这两种方案的优劣做简单讨论；介绍如何使用命令行选项（flags）和指导文件（directive files）来控制JRockit的代码生成策略。
-* **[第三章：自适应内存管理][3]**
+* **[第三章：自适应内存管理][3]**    该章对自适应运行时环境中的内存管理做了介绍。主要内容包括，自动内存管理的相关概念和算法，垃圾回收器的工作机制，JVM在位对象分配内存时所作的具体工作，以及为便于执行垃圾回收都需要记录哪些元数据信息。该章的后半部分所介绍的内容主要包括，可用于控制内存管理的Java API，和可应用于具有确定性延迟要求环境下的JRockit Real Time产品。最后，介绍了如何使用命令行参数来控制JRockit JVM的内存管理。
+* **[第四章：线程与同步][4]**    在Java和JVM中，线程与同步是非常重要的概念，该章对之相关的概念和在JVM中的简要实现了具体介绍，并对Java内存模型及其内在的复杂性做了深入讨论。像JVM的其他部分一样，自适应优化对线程和同步的执行也有很大影响，该章中会对此做简单介绍。此外，该章还对多线程编程中常见的一些错误做了介绍，例如双检查锁失效的问题。最后，讲解了如果对JRockit中的锁进行分析，以及如何通过命令行参数控制线程的部分行为。
+* **[第五章：基准测试与性能调优][5]**     该章会针对基准测试和性能目标的重要性进行讨论，此外还对一些针对Java的工业级基准测试套件进行介绍，最后，介绍如何根据基准测试的结果对应用程序和JVM进行调优，以及相关命令行参数的书用。
 
 
 
-[1]:    ./chap1/1.md    "Chapter 1: Getting Started"
-[2]:    ./chap2/2.md    "Chapter 2: Adaptive Code Generation"
-[3]:    ./chap3/3.md    "Chapter 3: Adaptive Memory Management"
+
+
+[1]:    ./chap1/1.md#1    "Chapter 1: Getting Started"
+[2]:    ./chap2/2.md#2    "Chapter 2: Adaptive Code Generation"
+[3]:    ./chap3/3.md#3    "Chapter 3: Adaptive Memory Management"
+[4]:    ./chap4/4.md#4    "Chapter 4: Threads and Synchronization"
+[5]:    ./chap5/5.md#5    "Chapter 5: Benchmarking and Tuning"
