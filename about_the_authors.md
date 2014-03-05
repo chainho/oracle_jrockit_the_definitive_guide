@@ -2,7 +2,7 @@
 
 ## Marcus Hirt
 
-Marcus Hirt毕业于瑞典斯德哥尔摩市的皇家理工学院，获得计算机硕士学位，作为是推出了JRockit JVM的Appeal Virtual Machines公司的创始人之一，他目前就职于Oracle，以架构师、领队和工程部经理的身份，带领JRockit Mission Control继续前进。在业余时间，Marcus还会写一些个人项目，谱谱曲字，玩个潜水啥的。Marcus为JRockit社区贡献了很多与JRockit相关的文档、白皮书和教程，并多次在Oracle Open World、eWorld、BEAWorld EclipseCon、Nordev和Expert Zone Developer Summit等会议上做演讲，广受好评。现今，Marcus和他的妻子与两个儿子生活在斯德哥尔摩。
+Marcus Hirt毕业于瑞典斯德哥尔摩市的皇家理工学院，获得计算机硕士学位，作为推出了JRockit JVM的Appeal Virtual Machines公司的创始人之一，他目前就职于Oracle，以架构师、领队和工程部经理的身份，带领JRockit Mission Control继续前进。在业余时间，Marcus还会写一些个人项目，谱谱曲子，玩个潜水啥的。Marcus为JRockit社区贡献了很多与JRockit相关的文档、白皮书和教程，并多次在Oracle Open World、eWorld、BEAWorld EclipseCon、Nordev和Expert Zone Developer Summit等会议上做演讲，广受好评。现今，Marcus和他的妻子与两个儿子生活在斯德哥尔摩。
 
 ## Marcus Lagergren
 
