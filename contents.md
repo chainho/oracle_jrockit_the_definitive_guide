@@ -213,7 +213,24 @@
         * [5.8.2 存活对象过多][211]
         * [5.8.3 Java并非银弹][212]
     * [5.9 小结][213]
-
+* [6 JRockit Mission Control][214]
+    * [6.1 相关背景][215]
+        * [6.1.1 采样分析 vs. 准确分析][216]
+        * [6.1.2 用途广泛][217]
+    * [6.2 概述][218]
+        * [6.2.1 JRockit Mission Control的服务器端组件][219]
+        * [6.2.2 JRockit Mission Control的客户端组件][220]
+        * [6.2.3 术语介绍][221]
+        * [6.2.4 单独运行JRockit Mission Control][222]
+        * [6.2.5 在Eclipse中运行JRockit Mission Control][223]
+        * [6.2.6 远程管理JRockit][224]
+            * [6.2.6.1 JRockit发现协议（JRockit Discovery Protocol）][225]
+        * [6.2.7 安全限制][226]
+    * [6.3 处理连接问题][227]
+        * [6.3.1 主机名解析失败的问题][228]
+    * [6.4 Experimental Update Site][229]
+    * [6.5 调试JRockit Mission Control][230]
+    * [6.6 小结][231]
 
 
 
@@ -436,3 +453,21 @@
 [211]:  ./chap5/5.8.md#5.8.2              "5.8.2 存活对象过多"
 [212]:  ./chap5/5.8.md#5.8.3              "5.8.3 Java并非银弹"
 [213]:  ./chap5/5.9.md#5.9                "5.9 小结"
+[214]:  ./chap6/6.md#6                    "6 JRockit Mission Control"
+[215]:  ./chap6/6.1.md#6.1                "6.1 相关背景"
+[216]:  ./chap6/6.1.md#6.1.1              "6.1.1 采样分析 vs. 准确分析"
+[217]:  ./chap6/6.1.md#6.1.2              "6.1.2 用途广泛"
+[218]:  ./chap6/6.2.md#6.2                "6.2 概述"
+[219]:  ./chap6/6.2.md#6.2.1              "6.2.1 JRockit Mission Control的服务器端组件"
+[220]:  ./chap6/6.2.md#6.2.2              "6.2.2 JRockit Mission Control的客户端组件"
+[221]:  ./chap6/6.2.md#6.2.3              "6.2.3 术语介绍"
+[222]:  ./chap6/6.2.md#6.2.4              "6.2.4 单独运行JRockit Mission Control"
+[223]:  ./chap6/6.2.md#6.2.5              "6.2.5 在Eclipse中运行JRockit Mission Control"
+[224]:  ./chap6/6.2.md#6.2.6              "6.2.6 远程管理JRockit"
+[225]:  ./chap6/6.2.md#6.2.6.1            "6.2.6.1 JRockit发现协议（JRockit Discovery Protocol）"
+[226]:  ./chap6/6.2.md#6.2.7              "6.2.7 安全限制"
+[227]:  ./chap6/6.3.md#6.3                "6.3 处理连接问题"
+[228]:  ./chap6/6.3.md#6.3.1              "6.3.1 主机名解析失败的问题"
+[229]:  ./chap6/6.4.md#6.4                "6.4 Experimental Update Site"
+[230]:  ./chap6/6.5.md#6.5                "6.5 调试JRockit Mission Control"
+[231]:  ./chap6.6.6.md#6.6                "6.6 小结"
